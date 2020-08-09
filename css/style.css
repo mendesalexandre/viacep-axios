@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cdf6eb;
+}
+
+.container {
+    max-width: 1200px;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c9c9c9;
+    border-radius: 3px;
+}
+
+.form {
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    outline: 0;
+    padding: 5px 10px;
+}
+
+button {
+    float: right;
+    border: 0;
+    border-radius: 3px;
+    background-color: #cdf6eb;
+    margin-top: 5px;
+    padding: 5px;
+    color: tomato;
+}
