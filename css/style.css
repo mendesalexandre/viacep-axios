@@ -39,3 +39,8 @@ button {
     padding: 5px;
     color: tomato;
 }
+
+#resultado {
+    width: 100%;
+    background-color: #c9c9c9;
+}
